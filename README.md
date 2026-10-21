@@ -2,7 +2,9 @@
 
 I re-measure the crypto numbers everyone else copies, and report the gap upstream where it can be fixed.
 
-**Method:** every figure is pinned to a block number, comes from a reproducible query, and ships with the condition that would falsify it.
+**Method:** each finding states its source and how it was measured, pins on-chain reads to a block where that is possible, marks figures that could only be recorded, and names what would prove it wrong.
+
+I choose what to measure, decide what is published, and answer for the conclusions. I use AI agents to draft text and code and to run the checks.
 
 ## Public findings
 
