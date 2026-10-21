@@ -17,6 +17,8 @@ I re-measure the crypto numbers everyone else copies, and report the gap upstrea
 | [Sky · Atlas A.2.3.1.2.4](https://github.com/sky-ecosystem/next-gen-atlas/issues/306) | 976,150.62 SKY bought back by the Smart Burn Engine, with no reduction in `totalSupply` | Answered: to be burned in a future executive vote |
 | [Hyperliquid · public EVM RPC](https://github.com/hyperliquid-dex/node/issues/158) | `eth_call` and `eth_getCode` return latest state when asked for a block the endpoint does not support | Open |
 | [Stellar · dashboard](https://github.com/stellar/dashboard/issues/363) | `sdfMandate` sums 15 accounts; the Lumens docs and Mandate page list 13 | Open |
+| [DefiLlama · pump.fun volume history](https://github.com/DefiLlama/dimension-adapters/issues/10310) | Stored daily volume ran at a median 0.72 of the fee-implied level from 2025-06-11 to 2026-10-08, an estimated $12.8B difference; refill requested | Open |
+| [DefiLlama · Pump parent totals](https://github.com/DefiLlama/dimension-adapters/issues/10311) | Parent totals include the doublecounted Mobile App listing: 7.03% of reported September revenue | Open |
 
 ---
 
