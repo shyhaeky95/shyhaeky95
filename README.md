@@ -19,6 +19,7 @@ I re-measure the crypto numbers everyone else copies, and report the gap upstrea
 | [Stellar · dashboard](https://github.com/stellar/dashboard/issues/363) | `sdfMandate` sums 15 accounts; the Lumens docs and Mandate page list 13 | Open |
 | [DefiLlama · pump.fun volume history](https://github.com/DefiLlama/dimension-adapters/issues/10310) | Stored daily volume ran at a median 0.72 of the fee-implied level from 2025-06-11 to 2026-10-08, an estimated $12.8B difference; refill requested | Open |
 | [DefiLlama · Pump parent totals](https://github.com/DefiLlama/dimension-adapters/issues/10311) | Parent totals include the doublecounted Mobile App listing: 7.03% of reported September revenue | Open |
+| [DefiLlama · SSV operator fees](https://github.com/DefiLlama/dimension-adapters/issues/10312) | ETH operator fees are weighted by validator count instead of effective balance: ~28–34% low per day (18–20 Oct 2026) | Open |
 
 ---
 
