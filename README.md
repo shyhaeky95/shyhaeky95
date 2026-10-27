@@ -18,12 +18,12 @@ Some of these have reproductions, with the data and checks you can run yourself,
 | [DefiLlama · Rocket Pool fees](https://github.com/DefiLlama/dimension-adapters/issues/8812) | Saturn 1 megapool reward deposits were skipped: 78.23 ETH of rETH rewards missing · [reproduction](https://github.com/shyhaeky95/onchain-findings/tree/main/findings/8812-defillama-rocketpool-megapools) | Fixed in [#8833](https://github.com/DefiLlama/dimension-adapters/pull/8833) |
 | [DefiLlama · Uniswap v3, Robinhood Chain](https://github.com/DefiLlama/dimension-adapters/issues/8480) | Chain missing from the fee-switch config, so holders revenue was empty | Fixed in [#8484](https://github.com/DefiLlama/dimension-adapters/pull/8484) |
 | [DefiLlama · Uniswap v3, Unichain](https://github.com/DefiLlama/dimension-adapters/issues/8849) | Missing fee-switch date, so holders revenue was reported as 0 | Fixed in [#9069](https://github.com/DefiLlama/dimension-adapters/pull/9069) |
+| [DefiLlama · SSV operator fees](https://github.com/DefiLlama/dimension-adapters/issues/10312) | ETH operator fees are weighted by validator count instead of effective balance: ~28–34% low per day (18–20 Oct 2026) | Fixed in [#10427](https://github.com/DefiLlama/dimension-adapters/pull/10427) |
 | [Sky · Atlas A.2.3.1.2.4](https://github.com/sky-ecosystem/next-gen-atlas/issues/306) | 976,150.62 SKY bought back by the Smart Burn Engine, with no reduction in `totalSupply` · [reproduction](https://github.com/shyhaeky95/onchain-findings/tree/main/findings/306-sky-atlas-burn) | Answered: to be burned in a future executive vote |
 | [Hyperliquid · public EVM RPC](https://github.com/hyperliquid-dex/node/issues/158) | `eth_call` and `eth_getCode` return latest state when asked for a block the endpoint does not support | Open |
 | [Stellar · dashboard](https://github.com/stellar/dashboard/issues/363) | `sdfMandate` sums 15 accounts; the Lumens docs and Mandate page list 13 | Open |
 | [DefiLlama · pump.fun volume history](https://github.com/DefiLlama/dimension-adapters/issues/10310) | Stored daily volume ran at a median 0.72 of the fee-implied level from 2025-06-11 to 2026-10-08, an estimated $12.8B difference; refill requested | Open |
 | [DefiLlama · Pump parent totals](https://github.com/DefiLlama/dimension-adapters/issues/10311) | Parent totals include the doublecounted Mobile App listing: 7.03% of reported September revenue | Open |
-| [DefiLlama · SSV operator fees](https://github.com/DefiLlama/dimension-adapters/issues/10312) | ETH operator fees are weighted by validator count instead of effective balance: ~28–34% low per day (18–20 Oct 2026) | Open |
 
 ---
 
