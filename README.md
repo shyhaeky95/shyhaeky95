@@ -25,6 +25,7 @@ Some of these have reproductions, with the data and checks you can run yourself,
 | [Stellar · dashboard](https://github.com/stellar/dashboard/issues/363) | `sdfMandate` sums 15 accounts; the Lumens docs and Mandate page list 13 | Open |
 | [DefiLlama · pump.fun volume history](https://github.com/DefiLlama/dimension-adapters/issues/10310) | *Estimate, not yet confirmed upstream:* stored daily volume ran at a median 0.72 of the fee-implied level from 2025-06-11 to 2026-10-08, about $12.8B below it in total; refill requested | Open |
 | [DefiLlama · Pump parent totals](https://github.com/DefiLlama/dimension-adapters/issues/10311) | Parent totals include the doublecounted Mobile App listing: 7.03% of reported September revenue | Open |
+| [DefiLlama · Aave holders revenue](https://github.com/DefiLlama/dimension-adapters/issues/10535) | Three June 2026 transfers from two EOAs are still counted as buybacks, so 2026-06-24 shows as the last buyback; the DAO's last buy settled on 2026-04-19 | Open |
 
 ---
 
