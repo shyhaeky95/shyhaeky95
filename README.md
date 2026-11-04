@@ -25,7 +25,7 @@ Some of these have reproductions, with the data and checks you can run yourself,
 | [Hyperliquid · public EVM RPC](https://github.com/hyperliquid-dex/node/issues/158) | `eth_call` and `eth_getCode` return latest state when asked for a block the endpoint does not support | Open |
 | [Stellar · dashboard](https://github.com/stellar/dashboard/issues/363) | `sdfMandate` sums 15 accounts; the Lumens docs and Mandate page list 13 | Open |
 | [DefiLlama · pump.fun volume history](https://github.com/DefiLlama/dimension-adapters/issues/10310) | *Estimate, not yet confirmed upstream:* stored daily volume ran at a median 0.72 of the fee-implied level from 2025-06-11 to 2026-10-08, about $12.8B below it in total; refill requested | Open |
-| [DefiLlama · Pump parent totals](https://github.com/DefiLlama/dimension-adapters/issues/10311) | Parent totals include the doublecounted Mobile App listing: 7.03% of reported September revenue | Open |
+| [DefiLlama · Pump parent totals](https://github.com/DefiLlama/dimension-adapters/issues/10311) | Parent totals include the doublecounted Mobile App listing: 7.03% of reported September revenue | Open · the doublecount was removed upstream in [#10450](https://github.com/DefiLlama/dimension-adapters/pull/10450) (merged 2026-11-03); issue not closed |
 
 ---
 
