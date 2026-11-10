@@ -26,6 +26,7 @@ Some of these have reproductions, with the data and checks you can run yourself,
 | [Stellar · dashboard](https://github.com/stellar/dashboard/issues/363) | `sdfMandate` sums 15 accounts; the Lumens docs and Mandate page list 13 | Open |
 | [DefiLlama · pump.fun volume history](https://github.com/DefiLlama/dimension-adapters/issues/10310) | *Estimate, not yet confirmed upstream:* stored daily volume ran at a median 0.72 of the fee-implied level from 2025-06-11 to 2026-10-08, about $12.8B below it in total; refill requested | Open |
 | [DefiLlama · Pump parent totals](https://github.com/DefiLlama/dimension-adapters/issues/10311) | Parent totals include the doublecounted Mobile App listing: 7.03% of reported September revenue | Open · the doublecount was removed upstream in [#10450](https://github.com/DefiLlama/dimension-adapters/pull/10450) (merged 2026-11-03); issue not closed |
+| [USD.AI · governance parameters doc](https://github.com/usdai-foundation/usdai-governance-contracts/issues/7) | `docs/PARAMETERS.md` lists quorum 5%, proposal threshold 10 million and a 1-week vote; the Governor on Arbitrum is at 7%, 125M CHIP and 10 days, and its threshold was 100M from deployment | Open |
 
 ---
 
