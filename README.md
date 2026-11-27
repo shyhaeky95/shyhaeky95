@@ -32,6 +32,14 @@ Some of these have reproductions, with the data and checks you can run yourself,
 | [USD.AI · governance parameters doc](https://github.com/usdai-foundation/usdai-governance-contracts/issues/7) | `docs/PARAMETERS.md` lists quorum 5%, proposal threshold 10 million and a 1-week vote; the Governor on Arbitrum is at 7%, 125M CHIP and 10 days, and its threshold was 100M from deployment | Open |
 | [Livepeer · docs, treasury reward cut](https://github.com/livepeer/docs/issues/1025) | Three docs pages still show the treasury reward cut as 0% (paused); on-chain it has been 10% since LIP-123 took effect in round 4377 (2026-10-20) | Open |
 
+## Public statements checked
+
+Statements by crypto projects set next to on-chain data or the project's own API, with a reproduction for each.
+
+| Statement | What the data shows | |
+|---|---|---|
+| Hyper Foundation and Hyperliquid docs: Assistance Fund HYPE is burned, "removing the tokens permanently from the circulating and total supply" | On 2026-11-26, Hyperliquid's Info API excluded the fund from `circulatingSupply`; under the supply-accounting model stated in the case (genesis supply minus deductions, with no subsequent additions), its `totalSupply` still counted at least 48.02M of the fund's 49.35M HYPE | [reproduction](https://github.com/shyhaeky95/onchain-findings/tree/main/findings/hyperliquid-assistance-fund-supply) |
+
 ---
 
 *Private activity on this profile is a daily measurement desk. Public findings land upstream first.*
